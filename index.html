@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Site Simples</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Clinica da Mulher</h1>
+    </header>
+    <section class="hero">
+        <div class="box-img">
+            <img id="doutora" src="img/doutora3.webp" alt="">
+        </div>
+        <div class="box-txt">
+            <h3>Marque a sua consulta</h3>
+            <h2>Saúde plena, Vida serena</h2>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Perferendis perspiciatis libero dignissimos quidem nihil quos distinctio odit tenetur repellat omnis, ullam cumque vitae porro quam excepturi error rerum ut fugit.</p>
+            <a href="#" class="btn-hero">Marque sua Consulta</a>
+        </div>
+
+    </section>
+
+    <section class="especialidades">
+        <div class="box-item">
+            <h3>Especialidade 1</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Est nesciunt voluptate iure, ab, perferendis, mollitia odio velit harum blanditiis in nihil minus voluptates quas. Eaque est commodi molestiae minus numquam.</p>
+            
+        </div>
+        <div class="box-item">
+            <h3>Especialidade 2</h3>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ea accusantium dolorum debitis perspiciatis nemo itaque consequuntur provident beatae praesentium repellendus. Est enim cum dolor sed maiores. Nesciunt repellendus ea quidem?</p>
+            
+        </div>
+        <div class="box-item">
+            <h3>Especialidade 3</h3>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Provident numquam facere consequuntur dicta, doloribus quis odio distinctio reprehenderit exercitationem obcaecati omnis vel. Dolore quia, quam quo iste libero vitae et.</p>
+            
+        </div>
+        <a href="#" class="m-top btn-hero">Marque sua  Consulta</a>
+    </section>
+    <footer>
+        <p>2023 &copy Clinica da Mulher. Todos os dieritos reservados.</p>
+    </footer>
+
+    <div class="whatsapp">
+        <a href="#"><img width="50" src="img/whats.png" alt="whatsapp"></a>
+    </div>
+
+    <script >
+        const doutora = document.getElementById('doutora');
+        //mouse em cima da imagem
+        doutora.addEventListener('mouseover', function(){
+            doutora.src = "img/doutora2.webp";
+        })
+
+        //mouse sai da imagem
+        doutora.addEventListener('mouseout', function(){
+            doutora.src = "img/doutora3.webp";
+        })
+    </script>
+</body>
+</html>
